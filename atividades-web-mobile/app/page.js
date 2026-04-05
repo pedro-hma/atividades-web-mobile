@@ -18,7 +18,7 @@ export default function Home() {
           <span style={styles.button}>Abrir atividade →</span>
         </Link>
         <div style={styles.grid}>
-          <Link href="/atividade2" style={styles.card}>
+          <Link href="/jogo-dados" style={styles.card}>
           <h2>Atividade 2</h2>
           <p>Editar descricão da lista <br /></p>
           <span style={styles.button}>Abrir atividade →</span>
