@@ -1,0 +1,15 @@
+.btn-jogador1 {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn-jogador2 {
+  background-color: #ef4444; 
+  color: white;
+}
+
+.btn-jogador1:disabled,
+.btn-jogador2:disabled {
+  background-color: #374151;
+  color: #9ca3af;
+}

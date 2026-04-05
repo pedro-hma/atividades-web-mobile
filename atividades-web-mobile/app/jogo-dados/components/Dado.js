@@ -5,11 +5,6 @@ export default function Dado({ valor }) {
     return <div>Valor inválido</div>;
   }
   return (
-    <Image
-      src={`/dice/dice${valor}.svg`}
-      alt={`Dado ${valor}`}
-      width={100}
-      height={100}
-    />
+    <Image src={`/dice/dice${valor}.svg`}alt={`Dado ${valor}`}width={100}height={100}/>
   );
 }
